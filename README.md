@@ -8,7 +8,9 @@
 
 > Modal componentte , task ların listelendiği tablodaki edit butonuna tıklandığında açılacak olan modal ile ilgili kodlar yer alıyor. İstediğimiz bir veride güncellemeyi edit butonuna tıklayarak çıkan modal içindeki formdan yapabiliriz. Daha sonra modalın içinde yer alan ‘saveChange’ butonunu tıklayarak başarılı güncelleme yaptıysak olumlu mesaj , aksi durumda hata mesajı sweetAlert aracılığıyla ekranda gösterilir, modal kapanır ve tablodaki tasklar gücellenir.
 
-![Markdown resim eklemek için](http://Screenshot_2.jpg)
+![Markdown resim](https://github.com/Esra08/Todo-App/blob/main/ss-images/todo1.jpg)
+![Markdown resim](https://github.com/Esra08/Todo-App/blob/main/ss-images/todo2.jpg)
+
 
 > Task-list adında oluşturduğum component içinde ise geriye kalan birçok işlem gerçekleştirilir.
 
