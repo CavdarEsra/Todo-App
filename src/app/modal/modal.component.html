@@ -1,0 +1,49 @@
+<div class="modal-container">
+  <div class="editModal">
+    <div class="editModal__header row">
+      <div class="col-10">
+        <h5>Task Management</h5>
+      </div>
+      <div class="col-2">
+        <button class="close" (click)="closeModal.emit()"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+      </div>
+    </div>
+    <div class="editModal__content">
+      <form [formGroup]="formValue">
+
+        <div class="form-group p-3">
+          <label>Task Name:</label>
+          <input type="text" formControlName="name" class="form-control p-2" placeholder="Enter task name"
+            [value]="taskData?.name">
+          <small *ngIf="formValue.get('name')?.invalid && formValue.get('name')?.touched" class="text-danger">Name is
+            required!</small>
+        </div>
+
+        <div class="form-group p-3">
+          <label>Category:</label>
+          <select formControlName="category" class="form-control p-2">
+            <option [selected]="true">Choose priority</option>
+            <option *ngFor="let category of categoriesData" [value]="category.id">{{category.name}}</option>
+          </select>
+          <small *ngIf="formValue.get('category')?.invalid && formValue.get('category')?.touched"
+            class="text-danger">Category is required!</small>
+        </div>
+
+        <div class="form-group p-3">
+          <label>Priority:</label>
+          <select formControlName="priority" class="form-control p-2">
+            <option [selected]="true">Choose priority</option>
+            <option value="URGENT">Urgent</option>
+            <option value="NORMAL">Normal</option>
+            <option value="NOT_URGENT">Not_Urgent</option>
+          </select>
+          <small *ngIf="formValue.get('priority')?.invalid && formValue.get('priority')?.touched"
+            class="text-danger">Priority is required!</small>
+        </div>
+      </form>
+    </div>
+    <div class="editModal__footer">
+      <button type="button" class="button saveChange" (click)="updateTask(); getTaskData(); closeModal.emit();" [disabled]="formValue.invalid">Save Changes</button>
+    </div>
+  </div>
+</div>

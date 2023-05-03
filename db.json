@@ -1,0 +1,50 @@
+{
+  "tasks": [
+    {
+      "id": 3,
+      "name": "cleaning",
+      "categoryId": 1,
+      "priority": "NORMAL",
+      "status": true,
+      "category": "home"
+    },
+    {
+      "id": 4,
+      "name": "meeting",
+      "categoryId": 2,
+      "priority": "URGENT",
+      "status": true,
+      "category": "work"
+    },
+    {
+      "id": 6,
+      "name": "listen to musicc",
+      "categoryId": 3,
+      "priority": "URGENT",
+      "status": true,
+      "category": "Special life"
+    },
+    {
+      "id": 7,
+      "name": "angular learning",
+      "categoryId": 2,
+      "priority": "NORMAL",
+      "status": false,
+      "category": "work"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "home"
+    },
+    {
+      "id": 2,
+      "name": "work"
+    },
+    {
+      "id": 3,
+      "name": "Special life"
+    }
+  ]
+}

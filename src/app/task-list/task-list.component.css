@@ -1,0 +1,51 @@
+.navbar {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(65, 62, 62);
+  color: rgb(245, 188, 188);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar__logo h3 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  text-shadow: 2px 2px 5px red;
+  font-family: "Sigmar", cursive;
+}
+.navbar__button--addButton, .modal button, .main__tasks .deleteButton, .main__tasks .editButton {
+  width: 5rem;
+  padding: 0.3rem;
+  border-radius: 1rem;
+  background-color: rgb(245, 188, 188);
+  box-shadow: 2px 2px 5px rgb(255, 124, 124);
+  border: none;
+}
+
+.main__tasks {
+  width: 100%;
+  height: 100%;
+}
+.main__tasks th {
+  padding-right: 3rem;
+  padding-bottom: 2rem;
+}
+
+.modal {
+  transition: opacity 0.5s ease-in-out;
+}
+.modal-header {
+  background-color: black;
+}
+.modal-footer {
+  background-color: black;
+}
+.modal-body {
+  background-color: rgb(65, 62, 62);
+}
+.modal button {
+  color: black;
+}
+.modal .saveChange {
+  width: 7rem;
+}/*# sourceMappingURL=task-list.component.css.map */

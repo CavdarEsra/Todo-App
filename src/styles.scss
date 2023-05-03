@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sigmar&display=swap');
+
+$black:#000;
+$white:#fff;
+$bodyBgColor:#343541;
+$navbarBgColor:#212225;
+$navbarLogoColor:#01289c;
+$navbarLogoShadowColor:#ffffff;
+$buttonBgColor:#01289c;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: $bodyBgColor;
+  color: white;
+}
+.container{
+  margin: 0 auto;
+}
+.button{
+  width: 5rem;
+  padding: 0.3rem;
+  border-radius: 1rem;
+  background-color: $buttonBgColor;
+  color: $white;
+  box-shadow: 2px 2px 3px $white;
+  border:none;
+}
+.close{
+  width: 2rem;
+  padding: 5px;
+  background-color: $black;
+  color:$white;
+  border-radius: 1rem;
+}
