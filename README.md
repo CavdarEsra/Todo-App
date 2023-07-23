@@ -21,3 +21,23 @@
 \*Edit ve add butonlarına tıklandığında açılan modallardaki formlarda validation kuralları da kullanılarak boş geçme önlendi, sweetAlert ile uyarı mesajları verildi.
 
 [Markdown Youtube Linki](https://www.youtube.com/watch?v=k_v0cJjktuc "Markdownu öğrendiğim video")
+
+
+## Used Technologies 
+* HTML
+* SCSS
+* ANGULAR
+* db.json
+* Sweat alert
+* Validations
+### Screenshot Of Website 
+![Ekran resmi1](https://github.com/CavdarEsra/Todo-App/blob/main/ss-images/todo1.jpg)
+![Ekran resmi2](https://github.com/CavdarEsra/Todo-App/blob/main/ss-images/todo2.jpg)
+![Ekran resmi3](https://github.com/CavdarEsra/Todo-App/blob/main/ss-images/todo2_2.jpg)
+![Ekran resmi4](https://github.com/CavdarEsra/Todo-App/blob/main/ss-images/todo3.jpg)
+![Ekran resmi5](https://github.com/CavdarEsra/Todo-App/blob/main/ss-images/todo4.jpg)
+![Ekran resmi6](https://github.com/CavdarEsra/Todo-App/blob/main/ss-images/todo4_2.jpg)
+![Ekran resmi7](https://github.com/CavdarEsra/Todo-App/blob/main/ss-images/todo5.jpg)
+
+
+
