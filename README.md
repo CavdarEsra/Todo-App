@@ -24,7 +24,7 @@
 * HTML
 * SCSS
 * ANGULAR
-* db.json
+* json server
 * Sweat alert
 * Validations
 ### Screenshot Of Website 
